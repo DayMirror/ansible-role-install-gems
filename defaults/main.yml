@@ -1,0 +1,4 @@
+---
+gems:
+  - ghost # cli-tool that simplifies /etc/hosts file management (add, delete, list, empty commands)
+...

@@ -1,0 +1,7 @@
+---
+- name: "Installing gem {{ item }}"
+  gem:
+    name: {{ item }}
+    state: latest
+  with_items: {{ gems }}
+...
