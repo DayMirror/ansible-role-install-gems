@@ -1,5 +1,5 @@
 ---
-- name: "Installing gem {{ item }}"
+- name: "Installing ruby gems"
   gem:
     name: "{{ item }}"
     state: latest
